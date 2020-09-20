@@ -1,6 +1,8 @@
 package quicksorting;
 
 import java.util.*;
+//Average Time Complexity Big O(nlogn)
+//Worst Case Big O(n**2)
 public class Main{
     //Main функц.
     public static void main(String [] args){
