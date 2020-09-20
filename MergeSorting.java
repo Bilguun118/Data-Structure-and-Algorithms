@@ -27,6 +27,7 @@ public class Main{
 class MergeSorting{
     //Getting input in array
     //Массивт хэрэглэгчээс утга авах.
+    //Олон хэсэгт хувааж сортинг хийх.
     public int [] gettinginput(int userinput){
         int[] Decarray = new int[userinput];
         Scanner input = new Scanner(System.in);
