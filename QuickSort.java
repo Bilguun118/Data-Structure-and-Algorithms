@@ -1,8 +1,8 @@
 package quicksorting;
 
 import java.util.*;
-//Main функц.
 public class Main{
+    //Main функц.
     public static void main(String [] args){
         int listlength;
         int [] beforesort;
@@ -41,12 +41,13 @@ class QuickSort{
         int pivotIndex = partition(array, start, end);
         //Рекурс функцээр сорт хийх.
         quicksorting(array, start, pivotIndex);
-        System.out.println("Sorted Elements");
+        System.out.println("Sorting Elements");
         for(int i = 0; i < array.length; i++){
             System.out.println(array[i]);
         }
 
         quicksorting(array, pivotIndex + 1, end);
+        
     }
 
     public static int partition(int [] array, int start, int end){
