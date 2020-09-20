@@ -2,6 +2,7 @@ package mergesort;
 
 import java.util.*;
 
+//Average Time Complexity Big O(n*log n)
 public class Main{
     //Main функц
     public static void main(String [] args){
@@ -41,7 +42,7 @@ class MergeSorting{
         if (end - start < 2){
             return;
         }
-
+        //Рекурс функц ашиглан сорт хийх.
         int middle = (start + end) / 2;
         mergesorting(array, start, middle);
         mergesorting(array, middle, end);
